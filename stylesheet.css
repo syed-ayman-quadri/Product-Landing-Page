@@ -2,7 +2,7 @@
 
 @media(max-width: 500px) {
     #main-body {
-        flex-wrap: wrap;
+        flex-wrap: ;
     }
 }
 
@@ -19,7 +19,7 @@ html {
 
 /* Nav-Bar Starts */
 
-#logo {
+#header-img {
     height: 50px;
     width: auto;
     cursor: pointer;
@@ -125,6 +125,11 @@ header {
     border-bottom: 2px solid #66bbff;
 }
 
+iframe {
+    padding-left: 40rem;
+    padding-top: 4rem;
+}
+
 /* iPhone 13 Ends */
 /* Apple Watch Series 7 Starts */
 
@@ -140,7 +145,7 @@ header {
 /* Airpods Starts */
 
 .airpods-3 {
-    background-image: url(https://www.apple.com/v/home/ai/images/promos/airpods-silhouette/promo_airpods_silhouette__d2srnok0r6mq_large_2x.jpg)
+    background-image: url(https://www.apple.com/v/home/ai/images/promos/airpods-silhouette/promo_airpods_silhouette__d2srnok0r6mq_large_2x.jpg);
 }
 
 .title-airpods {
@@ -157,8 +162,43 @@ header {
 footer {
     display: block;
     text-align: center;
+    background-color: #212329;
+    height: 20rem;
 }
 
 #form {
-    font-size: 5rem;
+    padding-top: 5rem;
+}
+
+#email {
+    width: 292px;
+    height: 40px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+#email::placeholder {
+    padding-left: 0.9rem;
+}
+
+#submit {
+    width: 292px;
+    height: 30px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    background-color: red;
+    font-size: 1.9rem;
+    color: white;
+    margin-left: 3.2rem;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: #337AF1;
+    transition: all 0.3s ease 0s;
 }
