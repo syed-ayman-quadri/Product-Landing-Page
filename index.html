@@ -5,33 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="stylesheet.css" rel="stylesheet">
-    <title>Document</title>
+    <title>Product Landing Page</title>
 </head>
 <body>
-    <header id="header">
-        <h1><u>Apple</u></h1>
-
-        <img src="https://www.transparentpng.com/thumb/apple-logo/12znKl-apple-logo-free-download.png" alt="Apple LOGO" id="header-img">
-    
-        <nav id="nav-bar">
-            <a href="#" class="nav-link">iPhone 13</a>&nbsp; &nbsp; &nbsp;
-            <a href="#" class="nav-link">Apple Watch Series 7</a>&nbsp; &nbsp; &nbsp;
-            <a href="#" class="nav-link">Airpods 3</a>&nbsp; &nbsp; &nbsp;
+    <header>
+        <img src="https://www.transparentpng.com/thumb/apple-logo/12znKl-apple-logo-free-download.png" alt="Apple Logo" id="logo">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">iPhone 13</a></li>
+                <li><a href="#">Apple Watch Series 7</a></li>
+                <li><a href="#">Airpods 3</a></li>
+            </ul>
         </nav>
     </header>
     <div id="main-content">  
-        <section id="iphone-13">
-            <div id="vid-back">
-                <iframe id="video" src="https://www.youtube.com/embed/m43rh-pI0P0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <section class="section iphone-13">
+            <div class="container">
+                <div class="title title-iphone-13">
+                    <h2 class="title-heading">iPhone 13</h2>
+                    <h3 class="title-sub-heading">Your new superpower.</h3>
+                </div>
+                <div class="cta">
+                    <a href="#" class="cta-link">Learn More</a>
+                    <a href="#" class="cta-link">Buy</a>
+                </div>
             </div>
         </section>
 
-        <section id="series 7">
-
+        <section class="section series-7">
+            <div class="container">
+                <div class="title title-apple-watch">
+                    <h2 class="title-heading">Apple Watch Series 7</h2>
+                    <h3 class="title-sub-heading">Introducing our largest display yet.</h3>
+                </div>
+                <div class="cta">
+                    <a href="#" class="cta-link">Learn More</a>
+                    <a href="#" class="cta-link">Buy</a>
+                </div>
+            </div>
         </section>
 
-        <section id="airpods-3">
-
+        <section class="section airpods-3">
+            <div class="container">
+                <div class="title title-airpods">
+                    <h2 class="title-heading">Airpods</h2>
+                    <h3 class="title-sub-heading">3rd Generation</h3>
+                </div>
+                <div class="cta cta-airpods">
+                    <a href="#" class="cta-link">Learn More</a>
+                    <a href="#" class="cta-link">Buy</a>
+                </div>
+            </div>
         </section>
     </div>
     <footer>

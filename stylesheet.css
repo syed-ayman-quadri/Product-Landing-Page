@@ -1,15 +1,4 @@
-#header {
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    height: 10px;
-    padding: 25px 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    opacity: .7;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 @media(max-width: 500px) {
     #main-body {
@@ -17,26 +6,159 @@
     }
 }
 
-#header-img {
-    border: 0px;
-    width: 100px;
+html {
+    font-size: 10px;
+    font-family: sans-serif;
 }
 
-#vid-back {
-    position: absolute;
-    align: left;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav-Bar Starts */
+
+#logo {
+    height: 50px;
+    width: auto;
+    cursor: pointer;
+    padding-left: 30px;
+}
+
+ul, a {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(240, 240, 240);
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    height: 4.4rem;
     width: 100%;
-    overflow: hidden;
-    padding-top: 50px;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px, 0%;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
-#video {
-    align: right;
-    width: 560;
-    height: 315;
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 60px;
+    padding-right: 90px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #0088A9
+}
+
+/* Nav-Bar Ends */
+/* iPhone 13 Starts */
+
+.iphone-13 {
+    background: url(https://www.apple.com/v/home/ai/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_largetall_2x.jpg);
+    margin-top: 4.4rem;
+}
+
+.section {
+    height: 65rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .6rem solid #fff;
+    border-bottom: .6rem solid #fff;
+}
+
+.iphone-13 {
+    border-top: none;
+}
+
+.title {
+    text-align: center;
+    padding-top: 5.5rem;
+}
+
+.title-iphone-13 {
+    color: #fff;
+}
+
+.title-heading {
+    font-size: 5.6rem;
+    line-height: -.005rem;
+}
+
+.title-sub-heading {
+    font-size: 2.65rem;
+    margin-top: .6rem;
+    letter-spacing: .008rem;
+    font-weight: 400;
+}
+
+.cta {
+    text-align: center;
+    margin-top: 1.8rem;
+}
+
+.cta-link {
+    color: #66bbff;
+    font-size: 2.1rem;
+    display: inline-block;
+}
+
+.cta-link:nth-child(2) {
+    margin-left: 2.6rem;
+}
+
+.cta-link:hover {
+    border-bottom: 2px solid #66bbff;
+}
+
+/* iPhone 13 Ends */
+/* Apple Watch Series 7 Starts */
+
+.series-7 {
+    background-image: url(https://www.apple.com/v/home/ai/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_large_2x.jpg)
+}
+
+.title-apple-watch {
+    color: black;
+}
+
+/* Apple Watch Series 7 Ends */
+/* Airpods Starts */
+
+.airpods-3 {
+    background-image: url(https://www.apple.com/v/home/ai/images/promos/airpods-silhouette/promo_airpods_silhouette__d2srnok0r6mq_large_2x.jpg)
+}
+
+.title-airpods {
+    color: #fff;
+    display: block;
+    margin-right: 70rem;
+}
+
+.cta-airpods {
+    display: block;
+    margin-right: 70rem;
 }
 
 footer {
-    position: relative;
-    padding-top: 700px;
+    display: block;
+    text-align: center;
+}
+
+#form {
+    font-size: 5rem;
 }
